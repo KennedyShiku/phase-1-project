@@ -9,39 +9,43 @@
 </head>
 <body>
   <div class="container">
-    <div class="city" id="city">
-      Nairobi
+    <div class="input">
+      <input type="text" class="searchbox" placeholder="Enter a city name"><button type="submit" class="searchbutton">Search</button>
+      
     </div>
     <div class="left-panel">
-      <input type="text"><button type="submit">Search</button>
+      <div class="current-weather">
+        <div class="city" id="city">
+          <h2>Nairobi</h2>
+        </div>
+        <div class="time" id="time">
+          12:00
+        </div>
+        <div class="date" id="date">
+          Wednesday 25th October
+        </div>
+        <div class="day-weather">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+          <div class="temp">22&#176; C</div>
+        </div>
+        <div class="weather-items">
+          <img src="./images/humidity.png" alt="" class="w-icon">
+        <div class="Humidity">Humidity</div>
+          10000
+        </div>
+        <div class="weather-items">
+          <img src="./images/windSpeed.png" alt="">
+        <div class="wind-speed">Wind Speed</div>
+          25.6%
+        </div>
+    </div>    
     </div>
-    <div class="current-weather">
-      <div class="time" id="time">
-        12:00
-      </div>
-      <div class="date" id="date">
-        Wednesday 25th October
-      </div>
-      <div class="day-weather">
-        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-        <div class="temp">22&#176; C</div>
-      </div>
-      <div class="weather-items">
-        <img src="./images/humidity.png" alt="" class="w-icon">
-        <div>Humidity</div>
-        10000
-      </div>
-      <div class="weather-items">
-        <img src="./images/windSpeed.png" alt="">
-        <div>Wind Speed</div>
-        25.6%
-      </div>
-    </div>
+
     <div class="future-weather">
       <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-      <div class="day">Upcoming 1</div>
-      <div class="future-temp">
-        23.5 &#176; C
+      <div class="right-panel">
+        <div class="day">Upcoming 1</div>
+      <div class="future-temp">23.5 &#176; C</div>
       </div>
     </div>
     <div class="future-weather">
@@ -53,31 +57,17 @@
     </div>
     <div class="future-weather">
       <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-      <div class="day">Upcoming 3</div>
-      <div class="future-temp">
-        23.5 &#176; C
-      </div>
+      <div class="right-panel">
+        <div class="day">Upcoming 3</div>
+      <div class="future-temp">23.5 &#176; C</div>
+    </div>
     </div>
     <div class="future-weather">
       <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-      <div class="day">Upcoming</div>
-      <div class="future-temp">
-        23.5 &#176; C
-      </div>
+      <div class="right-panel">
+        <div class="day">Upcoming 4</div>
+      <div class="future-temp">23.5 &#176; C</div>
     </div>
-    <div class="future-weather">
-      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-      <div class="day">Upcoming 4</div>
-      <div class="future-temp">
-        23.5 &#176; C
-      </div>
-    </div>
-    <div class="future-weather">
-      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-      <div class="day">Upcoming 5</div>
-      <div class="future-temp">
-        23.5 &#176; C
-      </div>
     </div>
   </div>
 
