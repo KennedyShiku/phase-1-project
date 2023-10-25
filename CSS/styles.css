@@ -51,8 +51,13 @@ button:hover{
   align-items: center;
 }
 
-h2{
-  font-size: 50px;
+.error{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+  display: none;
 }
 
 .current-weather{
