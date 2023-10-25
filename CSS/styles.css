@@ -8,7 +8,6 @@
 }
 
 body{
-  /* background: linear-gradient(120deg, rgb(1, 179, 255), #ffb6c1 );  */
   background-size: cover;
   justify-content: space-between;
   /* overflow: hidden; */
@@ -54,7 +53,6 @@ button:hover{
 
 h2{
   font-size: 50px;
-  /* font-weight: 800; */
 }
 
 .current-weather{
