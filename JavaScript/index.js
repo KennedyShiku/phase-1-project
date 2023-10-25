@@ -24,9 +24,9 @@ const weatherIcon = document.querySelector(".w-icon");
     //   weatherIcon.src = "images/mist.png"
     // } 
 }
-// searchBtn.addEventListener('click', () =>{
-//   checkWeather(searchBox.value);
-// })
+searchBtn.addEventListener('click', () =>{
+  checkWeather(searchBox.value);
+})
 
 
 
