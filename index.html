@@ -7,39 +7,52 @@
   <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
+  <!-- Main container -->
   <div class="container">
+    <!-- Search input and button -->
     <div class="search">
       <input type="text" class="searchbox" placeholder="Enter a city name">
       <button type="submit" class="searchbutton">Search</button>
     </div>
+    <!-- Error message -->
     <div class="error">
       <p>Invalid City Name</p>
     </div>
-      <div class="left-panel">
-        <div class="row">
-          <div class="current-weather">
-            <div class="city" id="city"> 
-            </div>
-            <div class="info-container">
-              <div class="day-weather">
-                <img src="./images/clear.png" alt="weather icon" class="w-icon">
-                <div class="temp">22&#176; C</div>
-                <div class="information">
-                  <img src="./images/humidity.png" alt="weather icon" class="w-icon">
-                  <div class="humidity">
-                    <p class="hum">Humidity</p>
-                  </div>
-                  <div class="wind">
-                    <img src="./images/wind.png" alt="weather icon" class="w-icon">
-                    <p class="wind-speed">Wind Speed</p>
-                  </div>
+    <!-- Left panel with weather information -->
+    <div class="left-panel">
+      <div class="row">
+        <div class="current-weather">
+          <!-- Display the city name here -->
+          <div class="city" id="city"> 
+            <!-- City name will be inserted by JavaScript -->
+          </div>
+          <!-- Weather information container -->
+          <div class="info-container">
+            <div class="day-weather">
+              <!-- Weather icon -->
+              <img src="./images/clear.png" alt="weather icon" class="w-icon">
+              <!-- Temperature -->
+              <div class="temp">22&#176; C</div>
+              <div class="information">
+                <!-- Humidity icon -->
+                <img src="./images/humidity.png" alt="weather icon" class="w-icon">
+                <div class="humidity">
+                  <!-- Humidity information will be inserted by JavaScript -->
+                  <p class="hum">Humidity</p>
+                </div>
+                <div class="wind">
+                  <!-- Wind speed information -->
+                  <img src="./images/wind.png" alt="weather icon" class="w-icon">
+                  <p class="wind-speed">Wind Speed</p>
                 </div>
               </div>
-            </div> 
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- Include your JavaScript code -->
   <script src="./JavaScript/index.js"></script>
 </body>
 </html>
