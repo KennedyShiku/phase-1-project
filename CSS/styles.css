@@ -5,19 +5,19 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 body{
   background-size: cover;
   justify-content: space-between;
-  /* overflow: hidden; */
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .search{
-  margin-top: 175px;
-  margin-left: 175px;
+  margin-top: 75px;
+  margin-left: 615px;
   margin-bottom: 0;
 }
 .searchbox{
@@ -37,6 +37,7 @@ button{
   width: 450px;
   height: 25px;
   border-radius: 100px;
+  font-weight: 500;
 }
 
 button:hover{
@@ -46,8 +47,7 @@ button:hover{
 
 .left-panel {
   display: flex;
-  margin-left: 115px;
-  /* justify-content: center; */
+  margin-left:550px;
   align-items: center;
 }
 
@@ -71,30 +71,67 @@ button:hover{
   background: linear-gradient(135deg, #EE4B2B,#39FF14, rgb(1, 179, 255));
   width: 500px;
   float: left;
-  padding: 10px;
-  height: 500px;
-  font-size: 50px;
+  padding: 50px;
+  height: 700px;
+  font-size: 30px;
+  color: #fff;
 }
-
 
 .left-panel img{
   width: 200px;
   height: 200px;
+  margin: 0 50px;
+  text-align: left;
 }
 
-.future-weather{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    border-radius: 100px;
-    padding: 50px;
-    margin: 10px 50px 50px 50px;
-    background-color: #fff;
-    width: 500px;
-    float: left;
-    padding: 10px;
-    height: 100px;
+.info-container .day-weather .temp{
+  padding-bottom: 30px;
+}
+
+.information{
+  text-align: center;
+  margin-left: 0;
+  font-size: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.information .hum{
+  padding-top: 20px;
+}
+.information .wind{
+  padding-top: 50px;
+}
+
+.information p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.information img{
+  width: 50px;
+  height: 50px;
+}
+
+.humidity{
+  font-weight: 500;
+}
+
+.wind-speed{
+  padding-bottom: 2px; 
+  margin-left: 10px; 
+  text-align: center;
 }
 
 
+
+.wind-information{
+  text-align: right;
+  margin-left: 0;
+  font-size: 30px;
+}
+
+.wind-information img{
+  width: 50px;
+  height: 50px;
+}
